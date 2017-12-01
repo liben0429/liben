@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>cishu.html</title>
+	
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+    <h1>7、竹竿320米  每天截取十二米  多少天后 竹竿长度少于40米   （要求用while做）</h1><br>
+    <input type="button"value="答案" onclick="show()">
+  </body>
+  <script type="text/javascript">
+  function show(){
+      var a=320;
+      var b=0;
+      while(a>=40){
+    	  
+    	    a-=12;
+	        
+	        b++;   	    
+      }
+    	  document.write("<h1><br/>答："+b+"天后 竹竿长度少于40米</h1>");
+  }
+  </script>
+</html>
